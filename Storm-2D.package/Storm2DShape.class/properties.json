@@ -1,0 +1,16 @@
+{
+	"category" : "Storm-2D-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"position",
+		"physicBody",
+		"physicShape" ],
+	"name" : "Storm2DShape",
+	"pools" : [
+		 ],
+	"super" : "StormShape",
+	"type" : "normal" }

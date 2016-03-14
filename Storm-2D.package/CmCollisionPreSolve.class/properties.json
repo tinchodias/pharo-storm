@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-2D-Chipmunk-ExpCollision",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CmCollisionPreSolve",
+	"pools" : [
+		 ],
+	"super" : "CmCollisionFunction",
+	"type" : "normal" }

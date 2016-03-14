@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-2D-Chipmunk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CmBoundingBox",
+	"pools" : [
+		 ],
+	"super" : "CmExternalStructure",
+	"type" : "normal" }

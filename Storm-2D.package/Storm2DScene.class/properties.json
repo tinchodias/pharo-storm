@@ -1,0 +1,17 @@
+{
+	"category" : "Storm-2D-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"surface",
+		"backgroundColor",
+		"physicSpace",
+		"physicStepTime" ],
+	"name" : "Storm2DScene",
+	"pools" : [
+		 ],
+	"super" : "StormScene",
+	"type" : "normal" }

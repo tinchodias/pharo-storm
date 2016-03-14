@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-2D-Chipmunk",
+	"classinstvars" : [
+		"arrayClass" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CmExternalStructure",
+	"pools" : [
+		"CmTypes" ],
+	"super" : "NBExternalStructure",
+	"type" : "normal" }

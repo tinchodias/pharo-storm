@@ -1,0 +1,35 @@
+{
+	"category" : "Storm-2D-Chipmunk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"cpArbiter",
+		"cpArray",
+		"cpBB",
+		"cpBody",
+		"cpBodyPositionFunc",
+		"cpBodyVelocityFunc",
+		"cpBool",
+		"cpCollisionType",
+		"cpConstraint",
+		"cpContactBufferHeader",
+		"cpDataPointer",
+		"cpFloat",
+		"cpGroup",
+		"cpHashSet",
+		"cpHashValue",
+		"cpLayers",
+		"cpShape",
+		"cpShapeClass",
+		"cpSpace",
+		"cpSpatialIndex",
+		"cpTimestamp",
+		"cpVect" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CmTypes",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

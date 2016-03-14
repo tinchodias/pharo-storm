@@ -1,0 +1,3 @@
+private
+nbLibraryNameOrHandle
+	^'libchipmunk.dylib'

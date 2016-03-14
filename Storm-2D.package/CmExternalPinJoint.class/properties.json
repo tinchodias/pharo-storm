@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-2D-Chipmunk-ExpJoint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CmExternalPinJoint",
+	"pools" : [
+		 ],
+	"super" : "CmExternalConstraint",
+	"type" : "variable" }
