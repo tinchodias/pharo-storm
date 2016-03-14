@@ -4,9 +4,7 @@ initializeWidgets
 		startButton ButtonModel
 		playground #PlaygroundModel).
 	
-	playground 
-		aboutToStyle: true;
-		workspace: true.
+	playground aboutToStyle: true.
 	startButton 
 		label: 'Go!';
 		action: [ 

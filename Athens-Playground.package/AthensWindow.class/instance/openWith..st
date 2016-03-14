@@ -10,7 +10,7 @@ openWith: aPainter
 				offsets: (0@0 corner: 0@0)).
 		
 	self announcer 
-		on: WindowClosed do: [ aPainter stop ].
+		when: WindowClosed do: [ aPainter stop ].
 	
 	surface := AthensCairoSurface extent: self extent.
 	self openAsIs.

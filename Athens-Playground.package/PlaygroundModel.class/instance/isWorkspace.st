@@ -1,3 +1,3 @@
 testing
 isWorkspace
-	^ workspace contents
+	^ workspace value

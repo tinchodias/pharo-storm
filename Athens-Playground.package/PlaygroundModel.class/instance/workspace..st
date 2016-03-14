@@ -1,3 +1,3 @@
 accessing
 workspace: anObject
-	workspace contents: anObject
+	workspace value: anObject
