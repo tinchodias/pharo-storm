@@ -1,0 +1,17 @@
+{
+	"category" : "Storm-Tests-Joints",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"color",
+		"constraint",
+		"bodya",
+		"bodyb" ],
+	"name" : "StormDampedRotarySpringComponent",
+	"pools" : [
+		 ],
+	"super" : "StormComponent",
+	"type" : "normal" }

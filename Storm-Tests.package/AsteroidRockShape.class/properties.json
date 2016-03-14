@@ -1,0 +1,17 @@
+{
+	"category" : "Storm-Tests-Asteroids",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"delta",
+		"speed",
+		"rotated",
+		"scaled" ],
+	"name" : "AsteroidRockShape",
+	"pools" : [
+		 ],
+	"super" : "Storm2DShape",
+	"type" : "normal" }

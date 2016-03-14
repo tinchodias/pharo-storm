@@ -1,0 +1,18 @@
+{
+	"category" : "Storm-Tests-FallingBall",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"balls",
+		"ballsGenerated",
+		"stepCounter",
+		"ballsPerStep",
+		"startX" ],
+	"name" : "StormBallGenerator",
+	"pools" : [
+		 ],
+	"super" : "StormComponent",
+	"type" : "normal" }

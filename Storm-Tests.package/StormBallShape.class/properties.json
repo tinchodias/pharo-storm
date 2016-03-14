@@ -1,0 +1,17 @@
+{
+	"category" : "Storm-Tests-FallingBall",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"color",
+		"radius",
+		"graphicsPath",
+		"graphicsPaint" ],
+	"name" : "StormBallShape",
+	"pools" : [
+		 ],
+	"super" : "Storm2DShape",
+	"type" : "normal" }

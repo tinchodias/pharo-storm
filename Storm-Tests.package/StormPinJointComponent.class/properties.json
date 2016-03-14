@@ -1,0 +1,15 @@
+{
+	"category" : "Storm-Tests-Joints",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"color",
+		"constraint" ],
+	"name" : "StormPinJointComponent",
+	"pools" : [
+		 ],
+	"super" : "StormComponent",
+	"type" : "normal" }

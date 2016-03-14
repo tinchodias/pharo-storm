@@ -1,0 +1,15 @@
+{
+	"category" : "Storm-Tests-Joints",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stringMorph",
+		"morph" ],
+	"name" : "VectorDemoModel",
+	"pools" : [
+		 ],
+	"super" : "NewValueHolder",
+	"type" : "normal" }

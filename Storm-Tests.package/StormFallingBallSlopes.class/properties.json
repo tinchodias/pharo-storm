@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-Tests-FallingBall",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "StormFallingBallSlopes",
+	"pools" : [
+		 ],
+	"super" : "StormFallingBall",
+	"type" : "normal" }

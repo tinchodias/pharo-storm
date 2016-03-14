@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-Tests-Resources",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"color" ],
+	"name" : "StormWallShape",
+	"pools" : [
+		 ],
+	"super" : "Storm2DShape",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-Tests-Asteroids",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Asteroids",
+	"pools" : [
+		 ],
+	"super" : "StormGame",
+	"type" : "normal" }

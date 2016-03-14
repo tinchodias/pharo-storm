@@ -1,0 +1,17 @@
+{
+	"category" : "Storm-Tests-FallingBall",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"beginCallback",
+		"preCallback",
+		"postCallback",
+		"separateCallback" ],
+	"name" : "StormFallingBall",
+	"pools" : [
+		 ],
+	"super" : "StormGame",
+	"type" : "normal" }

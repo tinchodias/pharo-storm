@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-Tests-Running",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"graphicsPath" ],
+	"name" : "StormRunner",
+	"pools" : [
+		 ],
+	"super" : "Storm2DShape",
+	"type" : "normal" }

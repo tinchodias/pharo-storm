@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-Tests-FallingBall",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"generator" ],
+	"name" : "StormBallsInACube",
+	"pools" : [
+		 ],
+	"super" : "StormGame",
+	"type" : "normal" }

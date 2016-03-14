@@ -1,0 +1,14 @@
+{
+	"category" : "Storm-Tests-Resources",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"vertices" ],
+	"name" : "StormPolygonWallShape",
+	"pools" : [
+		 ],
+	"super" : "StormWallShape",
+	"type" : "normal" }
