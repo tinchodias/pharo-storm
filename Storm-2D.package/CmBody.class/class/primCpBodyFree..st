@@ -1,5 +1,5 @@
 private
 primCpBodyFree: handle
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	self nbCall: #(void cpBodyFree(ulong handle))
+	self
+		ffiCall: #(void cpBodyFree(ulong handle))
+		module: CmLibrary

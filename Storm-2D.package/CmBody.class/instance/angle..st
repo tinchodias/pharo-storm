@@ -1,5 +1,5 @@
 accessing
 angle: aFloat
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^self nbCall: #( void cpBodySetAngle ( self, cpFloat aFloat ) )
+	^ self
+		ffiCall: #( void cpBodySetAngle ( self, cpFloat aFloat ) )
+		module: CmLibrary

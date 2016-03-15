@@ -1,3 +1,3 @@
 finalization
 finalizeResourceData: handle
-	self primCpBodyFree: handle.
+	self primCpBodyFree: handle

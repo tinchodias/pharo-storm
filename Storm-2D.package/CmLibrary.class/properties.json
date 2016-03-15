@@ -2,7 +2,6 @@
 	"category" : "Storm-2D-Chipmunk",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TChipmunkLibrary classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -11,6 +10,5 @@
 	"name" : "CmLibrary",
 	"pools" : [
 		"CmTypes" ],
-	"super" : "Object",
-	"traitcomposition" : "TChipmunkLibrary",
+	"super" : "FFILibrary",
 	"type" : "normal" }
