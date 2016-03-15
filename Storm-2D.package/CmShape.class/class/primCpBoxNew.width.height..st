@@ -1,8 +1,6 @@
 private
 primCpBoxNew: body width: width height: height
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self nbCall: #( CmShape cpBoxShapeNew(
+	^ self ffiCall: #( CmShape cpBoxShapeNew(
 			CmBody body,
 			cpFloat width,
 			cpFloat height ) )

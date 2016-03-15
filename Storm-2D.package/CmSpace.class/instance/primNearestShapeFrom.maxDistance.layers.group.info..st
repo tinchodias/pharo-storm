@@ -1,8 +1,6 @@
-querying
+private
 primNearestShapeFrom: aVector maxDistance: aFloat layers: layersFilter group: aGroup info: aNearestPointInfo
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin>
-	
-	^ self nbCall: #( cpShape *cpSpaceNearestPointQueryNearest(
+	^ self ffiCall: #( cpShape *cpSpaceNearestPointQueryNearest(
 			cpSpace self,
 			cpVect point,
 			cpFloat maxDistance,

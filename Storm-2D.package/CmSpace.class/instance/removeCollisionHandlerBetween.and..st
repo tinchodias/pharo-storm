@@ -1,8 +1,6 @@
 collision
 removeCollisionHandlerBetween: typeA and: typeB
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self nbCall: #(void cpSpaceRemoveCollisionHandler(
+	^ self ffiCall: #(void cpSpaceRemoveCollisionHandler(
 			cpSpace self,
 			cpCollisionType typeA,
 			cpCollisionType typeB

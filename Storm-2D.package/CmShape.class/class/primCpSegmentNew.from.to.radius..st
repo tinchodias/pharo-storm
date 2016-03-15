@@ -1,8 +1,6 @@
 private
 primCpSegmentNew: body from: a to: b radius: radius
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self nbCall: #( CmShape cpSegmentShapeNew(
+	^ self ffiCall: #( CmShape cpSegmentShapeNew(
 			CmBody body,
 			CmVector a,
 			CmVector b,

@@ -1,3 +1,3 @@
 instance creation
 new
-	^(self primCpSpaceNew) initialize
+	^ (self primCpSpaceNew) initialize
