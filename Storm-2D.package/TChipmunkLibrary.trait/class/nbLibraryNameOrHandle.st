@@ -1,3 +1,0 @@
-private
-nbLibraryNameOrHandle
-	^'libchipmunk.dylib'

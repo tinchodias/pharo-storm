@@ -1,3 +1,3 @@
 accessing
 force
-	^self primForce asPoint
+	^ self primForce asPoint

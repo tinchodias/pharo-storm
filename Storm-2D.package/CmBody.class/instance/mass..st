@@ -1,5 +1,3 @@
 accessing
-mass: aFloat
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^self nbCall: #( void cpBodySetMass ( self, cpFloat aFloat ) )
+mass: aNumber
+	^ self primMass: aNumber asFloat

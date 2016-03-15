@@ -1,5 +1,3 @@
 accessing
-angle: aFloat
-	^ self
-		ffiCall: #( void cpBodySetAngle ( self, cpFloat aFloat ) )
-		module: CmLibrary
+angle: aNumber
+	^ self primAngle: aNumber asFloat

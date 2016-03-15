@@ -18,7 +18,7 @@ example1
 	space addShape: ground.
 
 	mass := 1.0.
-	moment := CmLibrary 
+	moment := ChipmunkLibrary 
 		momentForCircleWithMass: mass 
 		innerRadius: 0.0 
 		outerRadius: 5.0 

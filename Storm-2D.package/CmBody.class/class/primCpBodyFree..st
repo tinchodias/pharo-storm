@@ -1,5 +1,3 @@
 private
 primCpBodyFree: handle
-	self
-		ffiCall: #(void cpBodyFree(ulong handle))
-		module: CmLibrary
+	self ffiCall: #(void cpBodyFree(ulong handle))

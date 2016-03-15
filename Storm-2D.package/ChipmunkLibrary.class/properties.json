@@ -7,7 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "CmLibrary",
+	"name" : "ChipmunkLibrary",
 	"pools" : [
 		"CmTypes" ],
 	"super" : "FFILibrary",

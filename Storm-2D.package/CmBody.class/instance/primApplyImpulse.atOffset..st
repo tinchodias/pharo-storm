@@ -1,4 +1,4 @@
-as yet unclassified
+private
 primApplyImpulse: impulseVector atOffset: offsetVector
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	
