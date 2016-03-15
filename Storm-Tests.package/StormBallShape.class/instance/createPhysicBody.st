@@ -2,7 +2,7 @@ private
 createPhysicBody 
 	 ^CmBody 
 		newMass: self mass
-		moment: (CmLibrary 
+		moment: (ChipmunkLibrary 
 			momentForCircleWithMass: self mass
 			innerRadius: 0.0 
 			outerRadius: self radius asFloat 

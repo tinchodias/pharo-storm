@@ -9,8 +9,8 @@ drawOn: aCanvas
 		r := 5.
 		rn := r negated.
 		
-		aVectorPin := ((constraint a primPosition) + (anch1 rotateBy: (constraint a primRotation))).
-		bVectorPin := ((constraint b primPosition) + (anch2 rotateBy: (constraint b primRotation))).
+		aVectorPin := ((constraint a position) + (anch1 rotateBy: (constraint a rotation))).
+		bVectorPin := ((constraint b position) + (anch2 rotateBy: (constraint b rotation))).
 		" 		builder absolute.
 		builder moveTo: aVectorPin asPoint.
 		builder lineTo: bVectorPin asPoint."

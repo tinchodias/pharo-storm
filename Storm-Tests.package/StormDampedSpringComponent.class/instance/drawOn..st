@@ -3,8 +3,8 @@ drawOn: aCanvas
 	| path stroke  delta pt anch1 anch2 aVectorPin bVectorPin |
 		
 		
-	aVectorPin := ((constraint a primPosition) + (anch1 rotateBy: (constraint a primRotation))).
-	bVectorPin := ((constraint b primPosition) + (anch2 rotateBy: (constraint b primRotation))).	
+	aVectorPin := ((constraint a position) + (anch1 rotateBy: (constraint a rotation))).
+	bVectorPin := ((constraint b position) + (anch2 rotateBy: (constraint b rotation))).	
 	delta := aVectorPin - bVectorPin.
 	
 	pt := aCanvas pathTransform.
