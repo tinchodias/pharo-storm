@@ -1,6 +1,6 @@
 instance creation
 x: xFloat y: yFloat
-	^self new
+	^ self new
 		x: xFloat;
 		y: yFloat;
 		yourself

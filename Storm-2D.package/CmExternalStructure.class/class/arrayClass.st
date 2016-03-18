@@ -1,3 +1,3 @@
 arrayed access
 arrayClass
-	^ arrayClass ifNil: [ arrayClass := NBExternalArray ofType: self name asString]
+	^ arrayClass ifNil: [ arrayClass := FFIExternalArray ofType: self name asString]

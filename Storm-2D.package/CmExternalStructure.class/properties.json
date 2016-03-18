@@ -10,5 +10,5 @@
 	"name" : "CmExternalStructure",
 	"pools" : [
 		"CmTypes" ],
-	"super" : "NBExternalStructure",
+	"super" : "FFIExternalStructure",
 	"type" : "normal" }
