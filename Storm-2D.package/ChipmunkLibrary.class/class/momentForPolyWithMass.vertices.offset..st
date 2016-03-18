@@ -4,5 +4,5 @@ momentForPolyWithMass: mass vertices: vertices offset: offset
 	^ self
 		primCpMomentForPolyWithMass: mass asFloat
 		numVertices: vertices size
-		vertices: (vertices asNBExternalArrayOfType: CmVector)
+		vertices: (vertices asExternalArrayOfType: CmVector)
 		offset: offset asCmVector
