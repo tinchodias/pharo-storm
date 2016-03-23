@@ -1,3 +1,3 @@
 private
 primCpSpaceNew
-	^ self ffiCall: #(CmSpace cpSpaceNew())
+	^ self ffiCall: #( cpSpace* cpSpaceNew() )
