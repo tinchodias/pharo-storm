@@ -1,9 +1,9 @@
 initialization
 initializeCallbacks
-	beginCallback := CmCallback forCollisionOn: [:arbiter :space :data| Transcript show: 'begin';cr. 1].
-	preCallback := CmCallback forCollisionOn: [:arbiter :space :data| Transcript show: 'preSolve';cr. 1].
-	postCallback := CmCallback forCollisionOn: [:arbiter :space :data | Transcript show: 'postSolve';cr. 0 ].
-	separateCallback := CmCallback forCollisionOn: [:arbiter :space :data| Transcript show: 'separate';cr. 0].
+	beginCallback := CmCollisionBegin on: [:arbiter :space :data| Transcript show: 'begin';cr. true].
+	preCallback := CmCollisionPreSolve on: [:arbiter :space :data| Transcript show: 'preSolve';cr. true].
+	postCallback := CmCollisionPostSolve on: [:arbiter :space :data | Transcript show: 'postSolve';cr ].
+	separateCallback := CmCollisionSeparate on: [:arbiter :space :data| Transcript show: 'separate';cr ].
 	
 	scenes first physicSpace
 		setDefaultCollisionBegin: beginCallback
