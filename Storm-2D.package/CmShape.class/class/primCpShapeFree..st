@@ -1,3 +1,3 @@
 private
 primCpShapeFree: handle
-	self ffiCall: #( void cpShapeFree( ulong handle ) )
+	self ffiCall: #( void cpShapeFree( cpShape *shape ) )

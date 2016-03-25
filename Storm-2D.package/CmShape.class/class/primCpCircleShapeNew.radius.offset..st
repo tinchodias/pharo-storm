@@ -1,6 +1,7 @@
 private
 primCpCircleShapeNew: body radius: radius offset: offset
-	^ self ffiCall: #( CmShape cpCircleShapeNew(
-			CmBody body,
+	^ self ffiCall: #(
+		cpShape* cpCircleShapeNew(
+			cpBody *body,
 			cpFloat radius,
-			CmVector offset ) )
+			cpVect offset) )

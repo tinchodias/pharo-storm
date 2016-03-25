@@ -1,11 +1,11 @@
 collision
 addCollisionHandlerBetween: typeA and: typeB begin: begin preSolve: preSolve postSolve: postSolve separate: separate data: data
-	^ self ffiCall: #(void cpSpaceSetDefaultCollisionHandler(
+	^ self ffiCall: #(void cpSpaceAddCollisionHandler(
 			cpSpace self,
 			cpCollisionType typeA, cpCollisionType typeB,
-			CmCollisionBegin begin,
-			CmCollisionPreSolve preSolve,
-			CmCollisionPostSolve postSolve,
-			CmCollisionSeparate separate,
-			0
+			cpCollisionBeginFunc begin,
+			cpCollisionPreSolveFunc preSolve,
+			cpCollisionPostSolveFunc postSolve,
+			cpCollisionSeparateFunc separate,
+			void *data
 		))

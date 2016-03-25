@@ -1,7 +1,7 @@
 private
 primCpSegmentNew: body from: a to: b radius: radius
-	^ self ffiCall: #( CmShape cpSegmentShapeNew(
-			CmBody body,
-			CmVector a,
-			CmVector b,
+	^ self ffiCall: #( cpShape* cpSegmentShapeNew(
+			cpBody *body,
+			cpVect a,
+			cpVect b,
 			cpFloat radius ) )	

@@ -4,9 +4,9 @@ setDefaultCollisionBegin: begin preSolve: preSolve postSolve: postSolve separate
 	
 	^ self nbCall: #(void cpSpaceSetDefaultCollisionHandler(
 			self,
-			CmCollisionBegin begin,
-			CmCollisionPreSolve preSolve,
-			CmCollisionPostSolve postSolve,
-			CmCollisionSeparate separate,
-			0
+			cpCollisionBeginFunc begin,
+			cpCollisionPreSolveFunc preSolve,
+			cpCollisionPostSolveFunc postSolve,
+			cpCollisionSeparateFunc separate,
+			void *data
 ))

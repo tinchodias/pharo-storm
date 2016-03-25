@@ -1,5 +1,3 @@
 accessing
 addShape: shape
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self nbCall: #( void cpSpaceAddShape ( self, CmShape shape ) )
+	^ self ffiCall: #( cpShape* cpSpaceAddShape(self, cpShape *shape) )

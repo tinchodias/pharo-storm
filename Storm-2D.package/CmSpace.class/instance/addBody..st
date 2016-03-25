@@ -1,5 +1,4 @@
 accessing
 addBody: body
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	
-	^ self nbCall: #( void cpSpaceAddBody ( self, CmBody body ) )
+	^ self ffiCall: #( void cpSpaceAddBody(self, cpBody body) )

@@ -1,3 +1,3 @@
 accessing
 damping
-	^self primDamping
+	^ self primDamping
