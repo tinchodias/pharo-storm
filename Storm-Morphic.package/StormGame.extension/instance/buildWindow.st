@@ -14,7 +14,7 @@ buildWindow
 				offsets: (0@0 corner: 0@0)).
 		
 	newWindow announcer 
-		on: WindowClosed do: [ self stop. window := nil ].
+		when: WindowClosed do: [ self stop. window := nil ].
 		
 	^newWindow
 		
