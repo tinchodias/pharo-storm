@@ -1,3 +1,3 @@
 private
 primCpBodyFree: handle
-	self ffiCall: #(void cpBodyFree(ulong handle))
+	self ffiCall: #(void cpBodyFree(cpBody* handle))

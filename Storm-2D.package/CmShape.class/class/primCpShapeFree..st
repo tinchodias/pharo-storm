@@ -1,3 +1,3 @@
 private
 primCpShapeFree: handle
-	self ffiCall: #( void cpShapeFree( cpShape *shape ) )
+	self ffiCall: #( void cpShapeFree(cpShape *handle) )

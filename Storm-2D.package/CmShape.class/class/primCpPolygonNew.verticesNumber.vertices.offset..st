@@ -3,5 +3,5 @@ primCpPolygonNew: body verticesNumber: numVertices vertices: vertices offset: of
 	^ self ffiCall: #( cpShape* cpPolyShapeNew(
 			cpBody *body,
 			int numVertices,
-			cpVect *vertices,
+			void *vertices,
 			cpVect offset ) )
