@@ -10,5 +10,5 @@
 	"name" : "CmCallback",
 	"pools" : [
 		"CmTypes" ],
-	"super" : "NBFFICallback",
+	"super" : "FFICallback",
 	"type" : "normal" }

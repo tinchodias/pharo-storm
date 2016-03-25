@@ -11,7 +11,7 @@ newPolygonBody: aBody vertices: hullVertices offset: offsetPoint
 		(vertices at: index)
 			x: v x;
 			y: v y.
-		"vertices at: index put: each asCmVector" ].
+		"vertices at: index put: v" ].
 	
 	^ (self
 			primCpPolygonNew: aBody
